@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(2, 27, 27);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: floralwhite;
+    margin: 50px;
+    font-weight: 900px;
+}
+
+p{
+    color: ghostwhite;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+}
+.headerDef{
+    font-family: monospace;
+    color: ghostwhite;
+    margin: 50px;
+}
+.listDef{
+    color: ghostwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
