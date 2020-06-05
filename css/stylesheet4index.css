@@ -1,18 +1,26 @@
 body{
-    background-color: rgb(2, 27, 27);
+    background-color: rgb(54, 51, 54);
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
     color: floralwhite;
     margin: 50px;
     font-weight: 900px;
-    border: dashed, 1px, ghostwhite;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border: dashed 5px blanchedalmond;
+    max-width: 40%;    
+}
+.mapimg{
+    position: relative;
+    left: 2%;
+    box-shadow: 10px 10px 10px black;
 }
 
 p{
     color: ghostwhite;
     font-family: 'Courier New', Courier, monospace;
-    margin: 50px;
+    margin: 2%;
 }
 .headerDef{
     font-family: monospace;
