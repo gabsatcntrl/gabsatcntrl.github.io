@@ -6,6 +6,7 @@ h1{
     color: floralwhite;
     margin: 50px;
     font-weight: 900px;
+    border: dashed, 1px, ghostwhite;
 }
 
 p{
