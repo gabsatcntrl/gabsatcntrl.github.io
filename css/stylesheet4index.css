@@ -1,16 +1,17 @@
-body{
-    background-color: rgb(49, 47, 49);
+html{
+    background: rgba(0,0,0,.5) url(/img/background.jpg);
+    background-blend-mode: darken;
+    background-size: initial;
+    background-repeat: none;
 }
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    color: floralwhite;
-    margin: 50px;
-    font-weight: 900px;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
-    border: dashed 5px blanchedalmond;
-    max-width: 40%;    
+.main-tlt{
+    font-family: 'Oswald', sans-serif;
+    color: azure;
+    border: 2px solid;
+    display: inline-block;
+    padding: 2%;
 }
+
 .mapimg{
     position: relative;
     left: 2%;
@@ -20,12 +21,12 @@ h1{
 p{
     color: ghostwhite;
     font-family: 'Courier New', Courier, monospace;
-    margin: 2%;
+    margin: 1%;
 }
 .headerDef{
     font-family: monospace;
     color: ghostwhite;
-    margin: 50px;
+    margin: 1%;
 }
 .listDef{
     color: ghostwhite;
@@ -42,3 +43,10 @@ tfoot {
     background-color: #333;
     color: #fff;
 }
+/*
+.colorDiv{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: darkmagenta;
+}*/
