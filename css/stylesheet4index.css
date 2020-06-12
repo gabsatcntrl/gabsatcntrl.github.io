@@ -1,0 +1,24 @@
+body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("/img/vac-marcius-15-ter.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(40%);
+  }
+  .nav-link{
+      font-weight: 300;
+      font-size: 24px;
+  }
+  .navbar-brand{
+    font-weight: 400;
+    font-size: 28px;
+  }
