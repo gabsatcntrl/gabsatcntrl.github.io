@@ -1,8 +1,3 @@
-#fat{
-  box-shadow: 6px,6px,6px,black;
-  padding: 1%;
-  display: inline-block;
-}
 .test {
   text-align: center;
   color: ghostwhite;
@@ -28,8 +23,10 @@
   border-width: 1px;
   border-color: rgb(145, 140, 140);
 }
+
 #gymbanner{
-  text-align: center;
-  background-color: black;
-  filter: brightness(50%);
+    margin-top: 15px;
+    filter: brightness(50%);
+    display: block;
+    width: 100%;
 }
