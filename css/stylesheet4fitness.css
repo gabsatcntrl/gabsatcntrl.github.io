@@ -1,6 +1,7 @@
 #fat{
   box-shadow: 6px,6px,6px,black;
   padding: 1%;
+  display: inline-block;
 }
 .test {
   text-align: center;
