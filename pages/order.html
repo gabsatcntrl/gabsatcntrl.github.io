@@ -13,26 +13,30 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand"><img class="menuicon" src="/img/menuicon.png" width="40" height="40"
-        class="d-inline-block align-top" alt="haha">Menü</a>
-    <ul class="navbar-nav">
-      <li class="nav-item active"></li>
-      <a class="nav-link" href="/index.html">Kezdőlap <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/pages/order.html">Ételrendelés</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/pages/fitness.html">Fitness</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about.html">About</a>
-      </li>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 
-    </ul>
+    <div>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="/index.html">Kezdőlap <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/order.html">Étkezés</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/fitness.html">Fitness</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/shopping.html">Shopping</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0" method="get" target="blank" action="http://www.google.com/search">
+            <input class="form-control mr-sm-2" type="text" placeholder="Na nézzük" name="q" size="25"
+                maxlength="255" value="">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Google Kereső</button>
+        </form>
     </div>
-  </nav>
+</nav>
 
   <div class="card-deck">
     <div class="card">
@@ -53,11 +57,19 @@
       </div>
     </div>
     <div class="card">
-      <img src="/img/sushi.JPG" class="card-img-top" alt="sushi">
+      <img src="/img/sushi.JPG" class="card-img-top" alt="...">
       <div class="card-body">
         <h3 class="card-title">Sushira vágysz? Íme!</h3>
         <p class="card-text"><a target="blank" href="https://niborsushi.hu/"><b>https://niborsushi.hu/</b></a></p>
         <p class="card-text"><small class="text-muted">Egy kis keleti</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/img/itttali.JPG" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Hmmm .. Itt Tali</h3>
+        <p class="card-text"><a target="blank" href="https://www.ittali.hu/"><b>https://www.ittali.hu/</b></a></p>
+        <p class="card-text"><small class="text-muted">Hol is tali?</small></p>
       </div>
     </div>
     

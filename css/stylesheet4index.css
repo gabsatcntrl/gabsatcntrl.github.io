@@ -12,26 +12,24 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(40%);
+    filter: brightness(50%);
   }
-  .navbar{
-    display: block;
-  }
-  .nav-link{
-      font-weight: 200;
-      font-size: 20px;
-  }
-  .navbar-brand{
-    font-weight: 300;
-    font-size: 24px;
-  }
-  .navbar{
-    display: block;
-  }
-
-  .googlesearch{
-    color: transparent;
-    display: block;
-    border: solid;
-    border-width: 1px;
-    padding: 2%;}
+.navbar-nav{
+  padding-bottom: 5%;
+}
+.test{
+  display: block;
+  text-align: center;
+  color:ghostwhite;
+  background-color: rgb(44, 42, 42);
+  padding: 5%;
+}
+#test1{
+  font-weight: 400;
+  font-size: 40px;
+}
+#test2{
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+}
