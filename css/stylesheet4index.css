@@ -15,10 +15,10 @@ body, html {
     filter: brightness(40%);
   }
   .nav-link{
-      font-weight: 300;
-      font-size: 24px;
+      font-weight: 200;
+      font-size: 20px;
   }
   .navbar-brand{
-    font-weight: 400;
-    font-size: 28px;
+    font-weight: 300;
+    font-size: 24px;
   }

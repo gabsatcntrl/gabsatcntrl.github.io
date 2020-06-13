@@ -1,0 +1,19 @@
+.nav-link{
+    font-weight: 200;
+    font-size: 20px;
+  }
+  .navbar-brand{
+  font-weight: 300;
+  font-size: 24px;
+  }
+  .fitnesstext{
+    display: inline;
+    text-align: center;
+    padding: 2%;
+  }
+  .card{
+    padding: 1%;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(145, 140, 140);
+  }
