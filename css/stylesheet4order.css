@@ -8,8 +8,10 @@ font-size: 24px;
 }
 .card-deck{
   padding: 1,77%;
+  display: inline-block;
 }
 .card{
+  display: inherit;
   border-style: solid;
   border-width: 1px;
   border-color: rgb(146, 143, 143);
@@ -23,4 +25,8 @@ font-size: 24px;
 .bottomfood{
   margin-top: 15px;
   filter: brightness(50%);
+  display: block;
+  width: 100%;
 }
+.navbar{
+  display: block;

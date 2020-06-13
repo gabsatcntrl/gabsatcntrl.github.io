@@ -17,3 +17,5 @@
     border-width: 1px;
     border-color: rgb(145, 140, 140);
   }
+  .navbar{
+    display: block;
