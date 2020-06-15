@@ -16,7 +16,7 @@
 }
 .bottomfood{
   margin-top: 15px;
-  filter: brightness(50%);
+  filter: brightness(80%);
   display: block;
   width: 100%;
 }
@@ -35,4 +35,10 @@
   font-weight: 200;
   font-size: 25px;
   text-align: center;
+}
+#hungry{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
