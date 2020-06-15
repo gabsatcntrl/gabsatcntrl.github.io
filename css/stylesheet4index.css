@@ -4,7 +4,7 @@ html {
 }
 .bg {
   /* The image used */
-  background-image: url("/img/vac-marcius-15-ter.jpg");
+  background-image: url("/img/background.jpg");
 
   /* Full height */
   height: 100%;
@@ -13,7 +13,6 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(80%);
 }
 .navbar-nav {
   padding-bottom: 7%;
@@ -34,13 +33,11 @@ html {
   font-size: 30px;
   text-align: center;
 }
-#clock {
-  background-color: rgba(20, 20, 20, 0.849);
-  text-align: center;
-  font-weight: 300;
-  font-family: monospace;
-}
-
 #weatherwidget-io{
   background-color: rgba(136, 131, 131, 0.24);
+}
+#analogClock{
+  background-color: rgba(136, 131, 131, 0);
+  margin: auto; max-width: 300px;
+  padding: 5%;
 }

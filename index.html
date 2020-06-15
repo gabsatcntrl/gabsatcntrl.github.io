@@ -44,12 +44,31 @@
 
     <div class="bg">
 
-        <div><a id="weatherwidget-io" class="weatherwidget-io" href="https://forecast7.com/hu/47d7819d14/vac/" data-label_1="VÁC"
-                data-label_2="Időjárás" data-textcolor="#fffefe">VÁC Időjárás</a>
+        <div><a id="weatherwidget-io" class="weatherwidget-io" href="https://forecast7.com/hu/47d7819d14/vac/"
+                data-label_1="VÁC" data-label_2="Időjárás" data-textcolor="#fffefe">VÁC Időjárás</a>
             <script>
                 !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
             </script>
         </div>
+
+        <div id="analogClock">
+            <table>
+                <tr>
+                    <td style="text-align: center;"><canvas id="canvas_tt5ee7af780f22e" width="175"
+                            height="175"></canvas>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; font-weight: bold"><a href="//24timezones.com/Budapest/time"
+                            style="text-decoration: none" class="clock24"
+                            id="tz24-1592242040-c150-eyJzaXplIjoiMTc1IiwiYmdjb2xvciI6IjAwMDAwMCIsImxhbmciOiJlbiIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWVlN2FmNzgwZjIyZSJ9"
+                            title="local time in Budapest" target="_blank" rel="nofollow"></a></td>
+                </tr>
+            </table>
+            <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+        </div>
+
+
 
     </div>
 
