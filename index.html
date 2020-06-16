@@ -49,15 +49,18 @@
             <script>
                 !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
             </script>
+
         </div>
 
-        <div id="clock"><a href="https://time.is/Vác" id="time_is_link" rel="nofollow" style= "color: white; font-size:30px">Mai Dátum :</a>
-            <span id="_z708" style="font-size:30px"></span>
-            <script src="//widget.time.is/hu.js"></script>
+        <div id="clock"><a href="https://time.is/Vác" id="time_is_link" rel="nofollow" style= "color: white; font-size:30px">Mai Dátum
+                :</a>
+            <span id="_z708" style="color:white; font-size:30px"></span>
+            <script src="//widget.time.is/fr.js"></script>
             <script>
-                time_is_widget.init({ _z708: { id: "Vác_z708", template: "DATE", date_format: "dayname daynum/monthnum/year" } });
+                time_is_widget.init({ _z708: { id: "Vác_z708", template: "DATE", date_format: "year-monthnum-daynum" } });
             </script>
         </div>
+
 
 
         <div id="analogClock">
@@ -75,12 +78,6 @@
                 </tr>
             </table>
             <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
-        </div>
-
-        <div id="findipwidget">
-            <div class="findiplink" id="findipurl">Powered by <a href="http://www.find-ip.net/"
-                    target="_blank">Find-IP.net</a></div>
-            <script defer src="//api.find-ip.net/widget.js?width=320&bg=rgba(136%2C%20131%2C%20131%2C%200)&"></script>
         </div>
 
     </div>

@@ -39,9 +39,11 @@ html {
 }
 #analogClock{
   background-color: rgba(136, 131, 131, 0);
-  margin: 2%;
-}
+  margin: auto;
+  max-width: 300px;
 }
 #clock{
-  background-color: rgba(136, 131, 131, 0);
+  background-color: rgba(75, 72, 72, 0.034);
+  margin: auto;
+  max-width: 400px;
 }
