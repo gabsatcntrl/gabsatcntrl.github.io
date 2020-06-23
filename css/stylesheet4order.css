@@ -11,6 +11,18 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+.navbar-nav {
+  padding-bottom: 4%;
+}
+#google{
+  padding: 5%;
+}
+.nav-item{
+  font-size: 24px;
+  font-weight: 200;
+}
+
 .card-body{
   padding: 1%;
 }
