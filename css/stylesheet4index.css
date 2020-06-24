@@ -15,32 +15,32 @@ html {
   background-size: cover;
 }
 .navbar-nav {
-  padding-bottom: 4%;
+  padding-bottom: 1%;
 }
 #google{
-  padding: 5%;
+  padding: 2%;
 }
 .nav-item{
-  font-size: 24px;
-  font-weight: 200;
+  font-size: 22px;
+  font-weight: 150;
 }
-.test {
+#bottomDiv {
   display: block;
   text-align: center;
   color: ghostwhite;
-  background-color: rgb(44, 42, 42);
-  padding: 10%;
+  background-color: rgb(14, 1, 1);
+  padding: 5%;
 }
-#test1 {
-  font-weight: 400;
+#bottomText1 {
+  font-weight: 300;
   font-size: 50px;
 }
-#test2 {
-  font-weight: 200;
+#bottomText2 {
+  font-weight: 150;
   font-size: 40px;
   text-align: center;
 }
 #weatherwidget-io{
-  background-color: rgba(136, 131, 131, 0.24);
+  background-color: rgba(14, 1, 78, 0.144);
   padding: 5%;
 }

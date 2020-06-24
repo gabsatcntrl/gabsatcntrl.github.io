@@ -13,15 +13,14 @@
 }
 
 .navbar-nav {
-  padding-bottom: 4%;
+  padding-bottom: 1%;
 }
 #google{
-  padding: 5%;
+  padding: 2%;
 }
 .nav-item{
-  font-size: 24px;
-  font-weight: 200;
-}
+  font-size: 22px;
+  font-weight: 150;
 
 .card-body{
   padding: 1%;
