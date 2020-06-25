@@ -16,3 +16,13 @@
   .card-text{
     font-size: 24px;
   }
+
+  #travel{
+    max-width: auto;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 3%;
+  }
+  #travelText{
+    color: white;
+  }
