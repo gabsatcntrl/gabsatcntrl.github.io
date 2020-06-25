@@ -18,11 +18,16 @@
   }
 
   #travel{
-    max-width: auto;
+    display: block;
+   
     text-align: center;
     background-color: rgb(0, 0, 0);
     padding: 3%;
   }
   #travelText{
     color: white;
+  }
+  #travelPic{
+    max-width: 100%;
+    height: auto;
   }
