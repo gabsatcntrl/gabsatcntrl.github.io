@@ -5,10 +5,9 @@
     padding: 2%;
 }
 #hungry4shop{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+  max-width: auto;
 }
 
 .navbar-nav {
@@ -20,4 +19,20 @@
 .nav-item{
   font-size: 22px;
   font-weight: 150;
+}
+
+#test1{
+  font-weight: 200;
+}
+#test2{
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.card{
+  text-align: center;
+}
+
+.card-text{
+  font-size: 24px;
 }

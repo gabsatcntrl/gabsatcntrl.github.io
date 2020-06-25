@@ -1,18 +1,12 @@
 .navbar-nav {
     padding-bottom: 1%;
   }
+  
   #google{
     padding: 2%;
   }
+  
   .nav-item{
     font-size: 22px;
     font-weight: 150;
-  }
-
-  .card{
-    text-align: center;
-  }
-  
-  .card-text{
-    font-size: 24px;
   }

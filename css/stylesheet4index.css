@@ -44,3 +44,6 @@ html {
   background-color: rgba(14, 1, 78, 0.144);
   padding: 5%;
 }
+#clock{
+  margin: 2%;
+}
