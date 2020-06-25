@@ -3,86 +3,90 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>News</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link href="/css/stylesheet4news.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>News</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="/css/stylesheet4news.css" rel="stylesheet">
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: rgb(14, 1, 1);">
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: rgb(14, 1, 1);">
 
-    <div>
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" href="/index.html">Kezdőlap <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pages/order.html">Hami-hami</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pages/fitness.html">Mozogj kicsit!</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pages/shopping.html">Pénzköltés</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pages/utazas.html">Utazás</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pages/news.html">Hírek</a>
-            </li>
-        </ul>
-        <form id="google" class="form-inline my-2 my-lg-0" method="get" target="blank" action="http://www.google.com/search">
-            <input class="form-control mr-sm-2" type="text" placeholder="Na nézzük" name="q" size="25"
-                maxlength="255" value="">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Google Kereső</button>
-        </form>
+        <div>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Kezdőlap <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/order.html">Hami-hami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/fitness.html">Mozogj kicsit!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/shopping.html">Pénzköltés</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/utazas.html">Utazás</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/news.html">Hírek</a>
+                </li>
+            </ul>
+            <form id="google" class="form-inline my-2 my-lg-0" method="get" target="blank"
+                action="http://www.google.com/search">
+                <input class="form-control mr-sm-2" type="text" placeholder="Na nézzük" name="q" size="25"
+                    maxlength="255" value="">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Google Kereső</button>
+            </form>
+        </div>
+    </nav>
+
+    <div id="newsHead">
+        <img id="newsPic" src="/img/news/news.JPG" alt="...">
+        <h1 id="newsText">Tájékozottnak lenni bizony alap.</h1>
     </div>
-</nav>
-
-<div id="newsHead">
-    <img id="newsPic" src="/img/news/news.JPG" alt="...">
-    <h1 id="newsText">Tájékozottnak lenni bizony alap.</h1>
-</div>
 
 
-<div class="card-deck">
+    <div class="card-deck">
 
-    <div class="card">
-        <img src="/img/news/index.JPG" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Friss,ropogós, csak az Indexen!</h5>
-            <p class="card-text"><a target="blank"
-                    href="https://index.hu/">https://index.hu/</a></p>
+        <div class="card">
+            <a target="blank" href="https://index.hu/"><img src="/img/news/index.JPG" class="card-img-top"
+                    alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title">Friss, ropogós, csak az Indexen!</h5>
+                <p class="card-text"><a target="blank" href="https://index.hu/">https://index.hu/</a></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Index</small>
+            </div>
+
         </div>
-        <div class="card-footer">
-            <small class="text-muted">Index</small>
+        <div class="card">
+            <a target="blank" href="https://index.hu/"><img src="/img/news/origo.JPG" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <h5 class="card-title">Nyomás az Origora</h5>
+                <p class="card-text"><a target="blank"
+                        href="https://www.origo.hu/index.html">https://www.origo.hu/index.html</a></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Origo</small>
+            </div>
         </div>
 
-    </div>
-    <div class="card">
-        <img src="/img/news/origo.JPG" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Nyomás az Origora</h5>
-            <p class="card-text"><a target="blank" href="https://www.origo.hu/index.html">https://www.origo.hu/index.html</a></p>
-        </div>
-        <div class="card-footer">
-            <small class="text-muted">Origo</small>
-        </div>
-    </div>
-    <div class="card">
-        <img src="/img/news/hirkereso.JPG" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Még több hír itt</h5>
-            <p class="card-text"><a target="blank"
-                    href="https://www.hirkereso.hu/">https://www.hirkereso.hu/</a></p>
-        </div>
-        <div class="card-footer">
-            <small class="text-muted">Hírkereső</small>
+        <div class="card">
+            <a target="blank" href="https://www.hirkereso.hu/"><img src="/img/news/hirkereso.JPG" class="card-img-top" alt="..."></a>
+            
+            <div class="card-body">
+                <h5 class="card-title">Még több hír itt</h5>
+                <p class="card-text"><a target="blank" href="https://www.hirkereso.hu/">https://www.hirkereso.hu/</a>
+                </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Hírkereső</small>
+            </div>
         </div>
     </div>
-</div>
