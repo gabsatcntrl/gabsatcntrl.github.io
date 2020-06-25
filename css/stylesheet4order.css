@@ -46,7 +46,8 @@ color: white;
 text-align: center;
 }
 #hungry{
-  max-width: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 #test1{
