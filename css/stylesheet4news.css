@@ -10,3 +10,12 @@
     font-size: 22px;
     font-weight: 150;
   }
+
+  .card{
+    text-align: center;
+  }
+  
+  .card-text{
+    font-size: 24px;
+  }
+
