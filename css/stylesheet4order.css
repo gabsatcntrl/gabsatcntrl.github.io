@@ -46,17 +46,20 @@ color: white;
 text-align: center;
 }
 #hungry{
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
+  padding: 2%;
+  filter: grayscale(100%);
 }
 
 #test1{
   padding: 1%;
-  font-weight: 400;
-  font-size: 35px;
+  font-weight: 200;
+  font-size: 45px;
 }
 
 #test2{
-  font-weight: 400;
-  font-size: 22px;
+  padding-bottom: 2%;
+  font-weight: 150;
+  font-size: 40px;
 }

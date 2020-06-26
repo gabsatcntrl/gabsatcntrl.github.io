@@ -41,9 +41,11 @@ html {
   text-align: center;
 }
 #weatherwidget-io{
+  display: block;
   background-color: rgba(14, 1, 78, 0.144);
-  padding: 5%;
 }
+
 #clock{
-  margin: 2%;
+  display: block;
+  padding: 3%;
 }

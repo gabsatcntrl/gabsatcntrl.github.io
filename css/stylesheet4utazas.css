@@ -26,8 +26,11 @@
   }
   #travelText{
     color: white;
+    font-weight: 100;
   }
   #travelPic{
     max-width: 100%;
     height: auto;
+    padding: 2%;
+    filter: grayscale(100%);
   }

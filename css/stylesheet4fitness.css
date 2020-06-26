@@ -14,6 +14,7 @@
   color: rgb(255, 255, 255);
   background-color: rgb(20, 2, 2);
   padding: 2%;
+  filter: grayscale(100%);
 }
 
 #fat{
@@ -22,13 +23,13 @@
 
 #test1 {
   padding: 1%;
-  font-weight: 400;
-  font-size: 35px;
+  font-weight: 200;
+  font-size: 45px;
 }
 
 #test2 {
-  font-weight: 200;
-  font-size: 25px;
+  font-weight: 100;
+  font-size: 35px;
   text-align: center;
 }
 
