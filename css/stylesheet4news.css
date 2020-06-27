@@ -34,8 +34,12 @@
   }
 
   #newsPic{
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     padding: 2%;
     filter: grayscale(100%);
+  }
+
+  .card{
+    box-shadow: 2px 2px 2px black;
   }

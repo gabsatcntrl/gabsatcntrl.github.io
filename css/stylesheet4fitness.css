@@ -1,10 +1,12 @@
 .navbar-nav {
   padding-bottom: 1%;
 }
-#google{
+
+#google {
   padding: 2%;
 }
-.nav-item{
+
+.nav-item {
   font-size: 22px;
   font-weight: 150;
 }
@@ -17,7 +19,7 @@
   filter: grayscale(100%);
 }
 
-#fat{
+#fat {
   max-width: auto;
 }
 
@@ -35,14 +37,12 @@
 
 .card {
   padding: 1%;
-  border: solid;
-  border-width: 1px;
-  border-color: rgb(145, 140, 140);
+  box-shadow: 2px 2px 2px black;
 }
 
-#gymbanner{
-    margin-top: 15px;
-    filter: brightness(50%);
-    display: block;
-    width: 100%;
+#gymbanner {
+  margin-top: 15px;
+  filter: brightness(50%);
+  display: block;
+  width: 100%;
 }
