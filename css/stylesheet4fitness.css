@@ -40,6 +40,10 @@
   box-shadow: 2px 2px 2px black;
 }
 
+#cardsBox{
+  background-color: black;
+}
+
 #gymbanner {
   margin-top: 15px;
   filter: brightness(50%);
