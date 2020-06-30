@@ -1,3 +1,8 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .navbar-nav {
   padding-bottom: 1%;
 }
@@ -42,11 +47,12 @@
 
 #cardsBox{
   background-color: black;
+  padding: 8%;
 }
 
 #gymbanner {
   margin-top: 15px;
   filter: brightness(50%);
   display: block;
-  width: 100%;
+  max-width: 100%;
 }

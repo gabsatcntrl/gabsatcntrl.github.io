@@ -1,3 +1,8 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .card-deck{
   padding: 1,77%;
   display: inline-block;
@@ -35,12 +40,7 @@
   height: auto;
 }
 
-.bottomfood{
-  margin-top: 15px;
-  filter: brightness(80%);
-  display: block;
-  width: 100%;
-}
+
 
 #hungryDiv{
 background-color: black;
@@ -79,6 +79,7 @@ text-align: center;
 }
 #cardsBox{
   background-color: black;
+  padding: 8%;
 }
 
 #textonpic{
