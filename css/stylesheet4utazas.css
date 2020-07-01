@@ -40,11 +40,9 @@ html, body {
     filter: grayscale(100%);
   }
 
-  .card{
-    box-shadow: 2px 2px 2px black;
-  }
+
 
   .card-deck{
     background-color: black;
-    padding: 7%;
+    padding: 8%;
   }
